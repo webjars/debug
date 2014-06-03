@@ -11,9 +11,9 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>debug</artifactId>
-    <version>0.7.5-SNAPSHOT</version>
     <name>Debug</name>
     <description>WebJar for Debug</description>
+    <version>0.8.1-SNAPSHOT</version>
     <url>http://webjars.org</url>
 
     <licenses>
@@ -38,12 +38,12 @@
             <email>james@jazzy.id.au</email>
         </developer>
     </developers>
-    
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>0.7.4</upstreamVersion>
         <sourceUrl>https://github.com/visionmedia/debug/archive</sourceUrl>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
+        <upstreamVersion>0.8.1</upstreamVersion>
         <extractDir>${project.build.directory}/debug-${upstreamVersion}</extractDir>
     </properties>
 
